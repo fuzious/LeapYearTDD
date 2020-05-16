@@ -18,5 +18,11 @@ class LeapTest {
         assertFalse(new Leap().notLeapIfDivisibleBy100not400(1700));
     }
 
+    @Test
+    void leapIfDivisibleBy4not100() {
+        assertTrue(new Leap().leapIfDivisibleBy4not100(1996));
+        assertFalse(new Leap().leapIfDivisibleBy4not100(1700));
+    }
+
 
 }

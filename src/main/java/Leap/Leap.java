@@ -14,4 +14,11 @@ public class Leap {
         else
             return false;
     }
+
+    public boolean leapIfDivisibleBy4not100(int year) {
+        if (year%4==0&&year%100!=0)
+            return true;
+        else
+            return false;
+    }
 }
